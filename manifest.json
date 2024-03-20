@@ -1,0 +1,13 @@
+{
+    "name": "chatGmail",
+    "description":"change Gmail format to chat-like",
+    "version": "1.0.0",
+    "author": "Keito Suwahara",
+    "manifest_version": 3,
+    "content_scripts": [
+        {
+            "matches": ["https://mail.google.com/mail/*"],
+            "js": ["a.js"]
+        }
+    ]
+}
